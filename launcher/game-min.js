@@ -7548,7 +7548,7 @@ var __extends = this.__extends || function(d, c) {
 		};
 		c.prototype.setProgress = function(b, a) {
 			this.textField.text =
-				"\u6e38\u620f\u52a0\u8f7d\u4e2d..." + b + "/" + a
+				"Loading..." + b + "/" + a
 		};
 		return c
 	}(egret.Sprite);
