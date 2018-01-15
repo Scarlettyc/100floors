@@ -7018,7 +7018,7 @@ var __extends = this.__extends || function(d, c) {
             this.bestValueText.text = best + "\u5c42";
             this.scoreValueText.text = blayer + "\u5c42";
             this.onPostComplete(this);
-            var play68ShareData = "我在#是男人就下100层#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
+            var play68ShareData = "我在#是男人就下100Floors#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
             // updateShare(play68ShareData);
 			// Play68.setRankingScoreDesc(GameApp.currentFloors);
 		};
@@ -7372,7 +7372,7 @@ var __extends = this.__extends || function(d, c) {
 		};
 		c.prototype.onShare =function(b) {
 				// dolaApi.showSharePage();
-				var play68ShareData = "我在#是男人就下100层#一鼓作气下了" + GameApp.currentFloors +"层,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
+				var play68ShareData = "我在#是男人就下100Floors#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
 				// play68_submitScore(play68ShareData);
 		};
 		c.prototype.onCloseShareLayer = function(b) {
@@ -7590,7 +7590,7 @@ var __extends = this.__extends || function(d, c) {
 
 
 
-			/*shareData.wxTimelineDesc = shareData.wxFriendDesc = shareData.desc = shareData.title = shareData.desc = "我一鼓作气下了" + GameApp.currentFloors +"层，超过了" + Math.abs(100 - 200/blayer).toFixed(1) + "%的人，不服来战，看看你能下几层！";;
+			/*shareData.wxTimelineDesc = shareData.wxFriendDesc = shareData.desc = shareData.title = shareData.desc = "我一鼓作气下了" + GameApp.currentFloors +"Floors，超过了" + Math.abs(100 - 200/blayer).toFixed(1) + "%的人，不服来战，看看你能下几Floors！";;
             LBShare.updateData(shareData);
             
             LBShare.callShare();*/
