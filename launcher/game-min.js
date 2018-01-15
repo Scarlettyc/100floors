@@ -7015,8 +7015,8 @@ var __extends = this.__extends || function(d, c) {
             if(blayer*1 > best*1){
                 localStorage.best = best = blayer;
             }
-            this.bestValueText.text = best + "\u5c42";
-            this.scoreValueText.text = blayer + "\u5c42";
+            this.bestValueText.text = best + "Floors";
+            this.scoreValueText.text = blayer + "Floors";
             this.onPostComplete(this);
             var play68ShareData = "我在#是男人就下100Floors#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
             // updateShare(play68ShareData);
@@ -7250,7 +7250,7 @@ var __extends = this.__extends || function(d, c) {
 			this.awardText.textAlign = egret.HorizontalAlign.CENTER;
 			this.awardText.touchEnabled = !1;
 			this.awardText.y = this.scoreValueText.y + this.scoreValueText.height + 10;
-			this.endLayer.addChild(this.awardText);
+			// this.endLayer.addChild(this.awardText);
 			var a = new egret.Sprite;
 			a.graphics.beginFill(13421772, 0.2);
 			a.graphics.drawRoundRect(0, 0, 160, 60, 4, 4);
@@ -7278,7 +7278,7 @@ var __extends = this.__extends || function(d, c) {
 			c.y = 450;
 			this.endLayer.addChild(c);
 			var d = new egret.TextField;
-			d.text = "\u91cd\u73a9";
+			d.text = "Replay";
 			d.textColor = 16777215;
 			d.bold = !0;
 			d.size = 36;
@@ -7291,7 +7291,7 @@ var __extends = this.__extends || function(d, c) {
 			d.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onReplay,
 				this);
 			a = new egret.TextField;
-			a.text = "\u901a\u77e5\u597d\u53cb";
+			a.text = "Share";
 			a.textColor = 16777215;
 			a.bold = !0;
 			a.size = 36;
