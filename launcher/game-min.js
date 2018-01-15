@@ -7018,7 +7018,7 @@ var __extends = this.__extends || function(d, c) {
             this.bestValueText.text = best + "\u5c42";
             this.scoreValueText.text = blayer + "\u5c42";
             this.onPostComplete(this);
-            var play68ShareData = "我在#是男人就下100层#一鼓作气下了" + GameApp.currentFloors +"层,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
+            var play68ShareData = "我在#是男人就下100层#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
             // updateShare(play68ShareData);
 			// Play68.setRankingScoreDesc(GameApp.currentFloors);
 		};
@@ -7186,7 +7186,7 @@ var __extends = this.__extends || function(d, c) {
 			this.endLayer.graphics.endFill();
 			this.addChild(this.endLayer);
 			var b = new egret.TextField;
-			b.text = "游戏结束";
+			b.text = "Game Over";
 			b.textColor = 15724527;
 			b.bold = !0;
 			b.size = 48;
@@ -7197,7 +7197,7 @@ var __extends = this.__extends || function(d, c) {
 			b.y = 80;
 			this.endLayer.addChild(b);
 			b = new egret.TextField;
-			b.text = "最高分";
+			b.text = "Max Score";
 			b.textColor = 16681509;
 			b.bold = !0;
 			b.size = 36;
@@ -7220,7 +7220,7 @@ var __extends = this.__extends || function(d, c) {
 			this.bestValueText.y = b.y + b.height + 5;
 			this.endLayer.addChild(this.bestValueText);
 			b = new egret.TextField;
-			b.text = "分数";
+			b.text = "Score";
 			b.textColor = 16681509;
 			b.bold = !0;
 			b.size = 36;
