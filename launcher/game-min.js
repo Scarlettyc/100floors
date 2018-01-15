@@ -7015,8 +7015,8 @@ var __extends = this.__extends || function(d, c) {
             if(blayer*1 > best*1){
                 localStorage.best = best = blayer;
             }
-            this.bestValueText.text = best + "Floors";
-            this.scoreValueText.text = blayer + "Floors";
+            this.bestValueText.text = best + " Floors";
+            this.scoreValueText.text = blayer + " Floors";
             this.onPostComplete(this);
             var play68ShareData = "我在#是男人就下100Floors#一鼓作气下了" + GameApp.currentFloors +"Floors,\u83b7\u5f97\u79f0\u53f7: \u3010" + c.getTitle(blayer) + "\u3011";
             // updateShare(play68ShareData);
@@ -7163,14 +7163,14 @@ var __extends = this.__extends || function(d, c) {
 			b.x = (this.stageW - b.width) / 2;
 			b.y = 325;
 			var d = new egret.TextField;
-			d.text = "\u70b9\u51fb\u5c4f\u5e55\u53f3\u4fa7\u53ef\u4ee5\u63a7\u5236\u4eba\u7269\u5411\u53f3";
+			d.text = "Touch the right side of screen to move right";
 			d.textColor = 16777215;
 			d.size = 18;
 			d.y = a.y + a.height;
 			d.x = (this.stageW - d.width) / 2;
 			this.startLayer.addChild(d);
 			a = new egret.TextField;
-			a.text = "\u70b9\u51fb\u5c4f\u5e55\u5de6\u4fa7\u53ef\u4ee5\u63a7\u5236\u4eba\u7269\u5411\u5de6";
+			a.text = "Touch the left side of screen to move left";
 			a.textColor = 16777215;
 			a.size = 18;
 			a.y = b.y + b.height;
