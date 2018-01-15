@@ -7471,11 +7471,11 @@ var __extends = this.__extends || function(d, c) {
             blayer++;
 
             /*arrow*/
-            b = new egret.Bitmap;
-			b.texture = RES.getRes("tip_arrow");
-			this.addChild(b);
-			b.x = 13;
-			b.y = this.stage.stageHeight - b.height - 10;
+   //          b = new egret.Bitmap;
+			// b.texture = RES.getRes("tip_arrow");
+			// this.addChild(b);
+			// b.x = 13;
+			// b.y = this.stage.stageHeight - b.height - 10;
             /*arrow end*/
 
 //            xb = new egret.Bitmap;
